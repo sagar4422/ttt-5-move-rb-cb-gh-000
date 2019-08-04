@@ -13,7 +13,7 @@ def input_to_index(user_input)
 end
 
 def move(board, user_input, char=" ")
-    board=[" "," "," "," "," "," "," "," "," "]
-    board[user_input] = char
+    board=["X"," "," "," "," "," "," "," "," "]
+    # board[user_input] = char
     display_board(board)
   end
