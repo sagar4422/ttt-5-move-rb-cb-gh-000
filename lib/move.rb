@@ -9,11 +9,11 @@ end
 # code your input_to_index and move method here!
 def input_to_index(user_input)
   user_input = user_input.to_i - 1
+  display_board(user_input)
 
 end
 
 def move(board, user_input, char=" ")
     board=[" "," "," "," "," "," "," "," "," "]
-    board[input_to_index(user_input)] = char
-    display_board(board)
+    # board[input_to_index(user_input)] = char
   end
