@@ -19,4 +19,3 @@ def move(board, position, char=" ")
     board[position] = char
     display_board(board)
   end
-move(board, position, "x")
